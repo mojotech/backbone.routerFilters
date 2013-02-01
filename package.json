@@ -1,0 +1,29 @@
+{
+  "name"       : "backbone.routerFilters",
+  "description": "Before and after filters for Backbone.Router.",
+  "version"    : "1.0.0",
+  "homepage"   : "https://github.com/mojotech/backbone.routerFilters",
+  "author"     : "Aaron Rosenberg <aarongrosenberg@gmail.com>",
+  "repository" : {
+    "type": "git",
+    "url" : "git://github.com/mojotech/backbone.routerFilters.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mojotech/backbone.routerFilters/issues"
+  },
+  "main"   : "backbone.routerFilters",
+  "scripts": {
+    "test": "grunt lint qunit"
+  },
+  "dependencies": {
+    "underscore": "~1.4.3",
+    "backbone"  : "~0.9.10"
+  }
+  "devDependencies": {
+    "grunt"     : "~0.3.17",
+    "qunit"     : "~1.10.0",
+    "sinon"     : "~1.5.2",
+    "jquery"    : ">=1.7.0"
+  },
+  "keywords": ["backbone", "filter", "before filter", "router"]
+}
